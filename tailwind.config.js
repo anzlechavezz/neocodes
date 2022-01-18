@@ -9,7 +9,15 @@ module.exports = {
         sans: [
           "Inter",
           "Source Sans Pro",
+        ],
+        heading: [
+          "Generation Mono",
+          "Inter",
+          "Source Sans Pro",
         ]
+      },
+      letterSpacing: {
+        widest: '.30em',
       }
     },
   },

@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: "Generation Mono";
+    src: url("/fonts/Generation\ Mono/Generation-Mono.otf");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+  }
+
+:root {
+    color-scheme: dark;
+
+    scrollbar-width: none;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
