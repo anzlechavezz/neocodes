@@ -19,7 +19,7 @@ export default function Home() {
         <div className='flex h-screen w-auto flex-col items-center justify-center pt-9'>
           <h1 className='text-center text-4xl font-bold font-sans dark:text-gray-200'>neocodes</h1>
           <h2 className='text-center'>anzle chavez &#xb7; <a href="mailto:anzlemchavez@gmail.com" className='dark: text-gray-200 hover:text-blue-300'>anzlemchavez@gmail.com</a></h2>
-          <SocialLinks className='pt-3' />
+          <SocialLinks/>
           <div className='flex flex-row justify-center gap-3 pt-3'>
             <nav>projects &#xb7;</nav>
             <Link href="/expo86">
