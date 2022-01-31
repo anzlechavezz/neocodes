@@ -11,7 +11,7 @@ module.exports = {
           "Source Sans Pro",
         ],
         heading: [
-          "Generation Mono",
+          "Hansief",
           "Inter",
           "Source Sans Pro",
         ]

@@ -16,10 +16,12 @@ export default function Home(): JSX.Element {
 
       <main>
         {/* name and links */}
-        <div className='flex h-screen w-auto flex-col items-center justify-center pt-9'>
-          <h1 className='text-center text-6xl font-bold font-heading dark:text-gray-200 scale-x-[0.4] tracking-widest'>neocodes</h1>
+        <div className='flex items-start h-screen w-auto flex-col justify-center p-4 p-[7em]'>
+          <h1 className='text-center text-8xl font-bold font-heading dark:text-gray-200'>neocodes</h1>
           <h2 className='text-center'>anzle chavez &#xb7; <a href="mailto:anzlemchavez@gmail.com" className='dark: text-gray-200 hover:text-blue-300'>anzlemchavez@gmail.com</a></h2>
+          
           <SocialLinks/>
+          
           <section className='flex flex-row justify-center gap-3 pt-3'>
             <nav>projects &#xb7;</nav>
             <Link href="https://expo-86.web.app" >
@@ -28,6 +30,7 @@ export default function Home(): JSX.Element {
           </section>
 
         </div>
+
         {/* introduction */}
         <section className='flex flex-col items-center justify-center'>
           <h2>Introduction</h2>

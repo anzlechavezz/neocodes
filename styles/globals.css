@@ -3,8 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-    font-family: "Generation Mono";
-    src: url("/fonts/GenerationMono/Generation-Mono.otf");
+    font-family: "Hanseif";
+    src: url("/fonts/Hanseif/hanseif.otf");
     font-style: normal;
     font-weight: 500;
     font-display: swap;
